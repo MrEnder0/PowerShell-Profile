@@ -1,0 +1,3 @@
+Modules/Microsoft.PowerToys.Configure/** linguist-vendored
+Modules/Microsoft.WinGet.Client/** linguist-vendored
+Modules/Microsoft.WinGet.CommandNotFound/** linguist-vendored
