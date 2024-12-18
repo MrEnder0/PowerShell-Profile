@@ -44,5 +44,4 @@ function Share {
     }
 }
 
-# Exporting the module member
 Export-ModuleMember -Function Share
