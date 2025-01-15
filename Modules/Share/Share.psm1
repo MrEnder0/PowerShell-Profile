@@ -8,8 +8,8 @@ function Share {
         [string]$Expiration = "N"  # Default to never expire
     )
 
-    # IMPORTANT Edit line to be your specific path to your api key
-    $apiKeyPath = "C:\Users\Ender\Documents\PowerShell\Secrets\pastebin_apikey.txt"
+    $userName = ($((Get-CimInstance Win32_ComputerSystem | Select-Object -ExpandProperty UserName) -split '\\')[-1])
+    $apiKeyPath = "C:\Users\$userName\Documents\PowerShell\Secrets\pastebin_apikey.txt"
 
     try {
         if (-not (Test-Path $apiKeyPath)) {

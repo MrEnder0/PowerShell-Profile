@@ -1,3 +1,4 @@
 Secrets/*
+Streak/*
 #Can remove winget from git repo due to amount of files and size
 #Modules/Microsoft.WinGet.Client

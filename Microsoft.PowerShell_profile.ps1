@@ -9,6 +9,7 @@ oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\catppuccin.omp.json" | Invo
 # Import custom commnads
 Import-Module Share
 Import-Module Extract
+Import-Module Streak
 
 # Define super important commands
 function reload {
